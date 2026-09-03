@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Akira 👋
+# Hi, I'm Axira 👋
 
 ### Minecraft Mod Developer · Server Designer · Game Systems Builder
 

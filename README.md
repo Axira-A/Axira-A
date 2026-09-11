@@ -1,14 +1,16 @@
 <div align="center">
 
-<img src="./assets/banner-v2.webp" width="100%" alt="Axira — Minecraft systems, worlds and modding" />
+<img src="./assets/hero.svg?v=3" width="100%" alt="Axira — Minecraft systems, worlds and modding" />
 
-<br/>
+### Building worlds, combat systems, interfaces, and multiplayer systems for Minecraft.
 
-### Building worlds, combat systems, and tools that make Minecraft feel like a different game.
+<a href="https://www.minecraft.net/"><img src="https://img.shields.io/badge/Minecraft-1.21.1-11161d?style=flat-square&logo=minecraft&logoColor=8fbf6f&labelColor=0b1016" alt="Minecraft 1.21.1" /></a>
+<img src="https://img.shields.io/badge/NeoForge-Modding-11161d?style=flat-square&logoColor=c9a467&labelColor=0b1016" alt="NeoForge" />
+<img src="https://img.shields.io/badge/Java-21-11161d?style=flat-square&logo=openjdk&logoColor=e7d7b4&labelColor=0b1016" alt="Java 21" />
+<a href="https://github.com/Axira-A?tab=repositories"><img src="https://img.shields.io/badge/Public-Repositories-11161d?style=flat-square&logo=github&logoColor=e7d7b4&labelColor=0b1016" alt="Public repositories" /></a>
+<a href="https://github.com/Axira-A?tab=followers"><img src="https://img.shields.io/github/followers/Axira-A?style=flat-square&logo=github&label=Followers&color=11161d&labelColor=0b1016" alt="GitHub followers" /></a>
 
-`Minecraft 1.21.1` · `NeoForge` · `Java 21` · `Game Systems` · `UI / UX` · `World Design`
-
-[Public repositories](https://github.com/Axira-A?tab=repositories) · [RPG Menu Framework](https://github.com/Axira-A/RPG-Menu-Framework)
+[Projects](#select-project) · [Current focus](#currently-forging) · [Public work](#latest-public-work) · [Tools](#equipped-tools) · [Repositories](https://github.com/Axira-A?tab=repositories)
 
 </div>
 
@@ -16,25 +18,27 @@
 
 ## About
 
-I'm **Axira**, an independent developer focused on Minecraft modding, multiplayer systems, RPG mechanics, UI / UX, animation, and world design.
+I'm **Axira**, an independent developer focused on Minecraft modding, action-RPG systems, multiplayer infrastructure, UI / UX, animation, and world design.
 
-I like projects where individual features connect into a complete experience: combat and movement should agree with animation; progression should agree with encounter design; interfaces should agree with the rest of the game; multiplayer state should remain trustworthy and persistent.
+I like building systems that reinforce each other: combat should agree with animation, progression with encounter design, interfaces with gameplay, and multiplayer state with persistence and server authority.
 
 ## Select project
 
 <div align="center">
 
-<img src="./assets/projects-showcase.webp" width="100%" alt="Select project — MaplesAdventure, Maples;World, RPG Menu Framework and MaplesCore" />
-
-[MaplesAdventure](#maplesadventure) · [Maples;World](#maplesworld) · [RPG Menu Framework](#rpg-menu-framework) · [MaplesCore](#maplescore)
+<a href="#maplesadventure"><img src="./assets/project-maplesadventure.svg?v=3" width="49%" alt="MaplesAdventure — Souls-like Adventure Mod" /></a>
+<a href="#maplesworld"><img src="./assets/project-maplesworld.svg?v=3" width="49%" alt="Maples;World — Multiplayer Server" /></a>
+<br/>
+<a href="https://github.com/Axira-A/RPG-Menu-Framework"><img src="./assets/project-rpg-menu.svg?v=3" width="49%" alt="RPG Menu Framework — Immersive RPG UI" /></a>
+<a href="#maplescore"><img src="./assets/project-maplescore.svg?v=3" width="49%" alt="MaplesCore — Shared Systems and Economy" /></a>
 
 </div>
 
 ### MaplesAdventure
 
-`IN DEVELOPMENT` · `NeoForge 1.21.1` · `Souls-like Action RPG`
+`ACTIVE DEVELOPMENT` · `NEOFORGE 1.21.1` · `SOULS-LIKE ACTION RPG`
 
-A combat-and-exploration project built around deliberate action gameplay: lock-on, movement, encounters, bosses, multiplayer phasing, fog-gate encounters, progression, animation, and a connected world are developed as one system rather than isolated mechanics.
+A combat-and-exploration project built around deliberate action gameplay: lock-on, directional movement, encounters, bosses, multiplayer phasing, fog-gate encounters, progression, animation, and a connected world are developed as one system.
 
 ### Maples;World
 
@@ -48,7 +52,7 @@ A persistent Minecraft server ecosystem combining adventure content, Create-orie
 
 An immersive RPG interface framework for modpack developers, designed to unify inventory, equipment, attributes, skills, magic, quests, and compatibility layers inside one coherent player interface.
 
-**→ [Open the public repository](https://github.com/Axira-A/RPG-Menu-Framework)**
+**→ [Open RPG Menu Framework](https://github.com/Axira-A/RPG-Menu-Framework)**
 
 ### MaplesCore
 
@@ -60,30 +64,25 @@ The shared systems layer behind server-side gameplay: economy, progression, titl
 
 ## Currently forging
 
-<table>
-<tr>
-<td width="28%"><strong>⚔ MaplesAdventure</strong></td>
-<td>combat feel · encounters · bosses · world design · animation</td>
-</tr>
-<tr>
-<td><strong>🧭 RPG Menu Framework</strong></td>
-<td>equipment UX · mod integrations · controller / keyboard navigation</td>
-</tr>
-<tr>
-<td><strong>🍁 Maples;World</strong></td>
-<td>server systems · progression · economy · adventure infrastructure</td>
-</tr>
-</table>
+<img src="./assets/forge.svg?v=3" width="100%" alt="Axira's current development focus" />
+
+<details>
+<summary><b>How this updates</b></summary>
+<br/>
+
+Edit `profile-status.json`. The profile workflow regenerates this SVG automatically. The card is self-hosted and does not need a third-party profile service.
+
+</details>
 
 ## Latest public work
 
-<img src="./assets/activity.svg" width="100%" alt="Latest public GitHub work generated by this repository" />
+<img src="./assets/activity.svg?v=3" width="100%" alt="Latest public GitHub work generated by this repository" />
 
 <details>
-<summary><b>How this panel works</b></summary>
+<summary><b>How this updates</b></summary>
 <br/>
 
-The card is generated by this profile repository's own **GitHub Actions** workflow. It reads my public repositories through the GitHub API, ignores forks / empty repositories / this profile repository, and refreshes only when the rendered card actually changes. No third-party profile-stat service is required.
+This profile repository's own GitHub Actions workflow reads public repositories through the GitHub API, ignores forks, archived repositories, empty repositories, and this profile repository, then commits a new card only when its rendered content changes.
 
 </details>
 
@@ -91,21 +90,21 @@ The card is generated by this profile repository's own **GitHub Actions** workfl
 
 ## Equipped tools
 
+<img src="./assets/tools.svg?v=3" width="100%" alt="Equipped tools: Java 21, NeoForge, KubeJS, Gradle, Git, Blender, Blockbench and Unity C#" />
+
 <div align="center">
-
-<img src="./assets/tools-showcase.webp" width="100%" alt="Equipped tools: Java 21, NeoForge, KubeJS, Gradle, Git, Blender, Blockbench and Unity C#" />
-
 <sub>`Java 21` · `NeoForge` · `KubeJS` · `Gradle` · `Git` · `Blender` · `Blockbench` · `Unity / C#`</sub>
-
 </div>
 
 ## Engineering values
 
-- **Game feel first** — a system is not finished just because it is technically functional.
-- **Server authority** — important multiplayer state should remain deterministic and trustworthy.
-- **Persistence** — upgrades and migrations should not casually destroy player progress.
-- **Compatibility** — integrations should cooperate with a modpack instead of taking it over.
-- **Cohesion** — mechanics, UI, animation, progression, and world design should feel like parts of the same game.
+| | |
+|---|---|
+| **Game feel first** | A feature is not finished just because it technically functions. |
+| **Server authority** | Important multiplayer state should remain deterministic and trustworthy. |
+| **Persistence** | Upgrades and migrations should preserve player progress safely. |
+| **Compatibility** | Integrations should cooperate with a modpack instead of taking it over. |
+| **Cohesion** | Mechanics, UI, animation, progression, and world design should feel like one game. |
 
 <details>
 <summary><b>More interests</b></summary>
@@ -119,7 +118,7 @@ Minecraft modding · Souls-like combat · action RPG systems · multiplayer arch
 
 <div align="center">
 
-<img src="./assets/bonfire-v2.webp" width="100%" alt="Rest at the bonfire" />
+<img src="./assets/footer.svg?v=3" width="100%" alt="Rest at the bonfire" />
 
 <sub>Thanks for visiting · Axira-A</sub>
 

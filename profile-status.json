@@ -1,0 +1,25 @@
+{
+  "updated": "2026-09-11",
+  "focus": [
+    {
+      "project": "MaplesAdventure",
+      "status": "ACTIVE BUILD",
+      "detail": "combat feel · encounters · bosses · world design · animation"
+    },
+    {
+      "project": "RPG Menu Framework",
+      "status": "ITERATING",
+      "detail": "equipment UX · mod integrations · controller and keyboard navigation"
+    },
+    {
+      "project": "Maples;World",
+      "status": "ACTIVE WORLD",
+      "detail": "server systems · progression · economy · adventure infrastructure"
+    },
+    {
+      "project": "MaplesCore",
+      "status": "CORE SYSTEMS",
+      "detail": "server authority · persistence · administration · cross-server data"
+    }
+  ]
+}

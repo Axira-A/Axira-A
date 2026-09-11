@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b10"/><stop offset="1" stop-color="#0d141c"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8f7348" stop-opacity="0"/><stop offset=".5" stop-color="#c9a467"/><stop offset="1" stop-color="#8f7348" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="318" rx="17" fill="none" stroke="#3a352e"/>
+<text x="44" y="45" fill="#eee5d3" font-family="Georgia, 'Times New Roman', serif" font-size="25" letter-spacing="3">CURRENTLY FORGING</text>
+<text x="44" y="67" fill="#847b6e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1.6">ACTIVE DEVELOPMENT FOCUS · EDIT profile-status.json TO UPDATE</text>
+<text x="1156" y="48" text-anchor="end" fill="#746b60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">STATUS UPDATED  2026-09-11</text>
+<path d="M44 84 H1156" stroke="#273039"/><path d="M44 84 H220" stroke="#d18d47" opacity=".65"/>
+<path d="M44 84 H130" stroke="#c9a467" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;.65;0" dur="6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;1010 0" dur="6s" repeatCount="indefinite"/></path>
+<g>
+<rect x="44" y="106" width="544" height="82" rx="12" fill="#0b1118" stroke="#303840"/>
+<rect x="44" y="106" width="4" height="82" rx="2" fill="#d18d47" opacity=".85"/>
+<circle cx="68" cy="130" r="4" fill="#d18d47"><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/></circle>
+<text x="82" y="134" fill="#eee5d3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">MaplesAdventure</text>
+<text x="564" y="133" text-anchor="end" fill="#d18d47" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1">ACTIVE BUILD</text>
+<text x="68" y="163" fill="#9a9389" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">combat feel · encounters · bosses · world design · animation</text>
+</g><g>
+<rect x="612" y="106" width="544" height="82" rx="12" fill="#0b1118" stroke="#303840"/>
+<rect x="612" y="106" width="4" height="82" rx="2" fill="#8d77c7" opacity=".85"/>
+<circle cx="636" cy="130" r="4" fill="#8d77c7"><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/></circle>
+<text x="650" y="134" fill="#eee5d3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">RPG Menu Framework</text>
+<text x="1132" y="133" text-anchor="end" fill="#8d77c7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1">ITERATING</text>
+<text x="636" y="163" fill="#9a9389" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">equipment UX · mod integrations · controller and keyboard navigation</text>
+</g><g>
+<rect x="44" y="204" width="544" height="82" rx="12" fill="#0b1118" stroke="#303840"/>
+<rect x="44" y="204" width="4" height="82" rx="2" fill="#b9874f" opacity=".85"/>
+<circle cx="68" cy="228" r="4" fill="#b9874f"><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/></circle>
+<text x="82" y="232" fill="#eee5d3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">Maples;World</text>
+<text x="564" y="231" text-anchor="end" fill="#b9874f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1">ACTIVE WORLD</text>
+<text x="68" y="261" fill="#9a9389" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">server systems · progression · economy · adventure infrastructure</text>
+</g><g>
+<rect x="612" y="204" width="544" height="82" rx="12" fill="#0b1118" stroke="#303840"/>
+<rect x="612" y="204" width="4" height="82" rx="2" fill="#6f9a86" opacity=".85"/>
+<circle cx="636" cy="228" r="4" fill="#6f9a86"><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/></circle>
+<text x="650" y="232" fill="#eee5d3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">MaplesCore</text>
+<text x="1132" y="231" text-anchor="end" fill="#6f9a86" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1">CORE SYSTEMS</text>
+<text x="636" y="261" fill="#9a9389" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">server authority · persistence · administration · cross-server data</text>
+</g>
+</svg>

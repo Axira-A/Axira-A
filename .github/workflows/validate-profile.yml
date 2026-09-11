@@ -1,0 +1,35 @@
+name: Validate profile
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "README.md"
+      - "profile-status.json"
+      - "assets/**"
+      - "scripts/**"
+      - ".github/workflows/**"
+  pull_request:
+    paths:
+      - "README.md"
+      - "profile-status.json"
+      - "assets/**"
+      - "scripts/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check profile assets and configuration
+        run: python scripts/check_profile.py
+      - name: Compile profile scripts
+        run: python -m py_compile scripts/update_profile.py scripts/build_visuals.py scripts/check_profile.py

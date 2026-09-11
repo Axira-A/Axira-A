@@ -1,9 +1,13 @@
-name: Update profile activity
+name: Update profile cards
 
 on:
   workflow_dispatch:
   schedule:
     - cron: "17 3 * * *"
+  push:
+    paths:
+      - "profile-status.json"
+      - "scripts/update_profile.py"
 
 permissions:
   contents: write
@@ -25,20 +29,20 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate latest-public-work card
+      - name: Generate profile cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_profile.py
 
-      - name: Commit only when the card changed
+      - name: Commit only when generated cards changed
         shell: bash
         run: |
-          if git diff --quiet -- assets/activity.svg; then
+          if git diff --quiet -- assets/activity.svg assets/forge.svg; then
             echo "No profile changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/activity.svg
-          git commit -m "chore(profile): refresh public activity"
+          git add assets/activity.svg assets/forge.svg
+          git commit -m "chore(profile): refresh generated cards"
           git push

@@ -1,0 +1,38 @@
+name: Rebuild profile visuals
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/build_visuals.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-visual-rebuild
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build SVG visual system
+        run: python scripts/build_visuals.py
+      - name: Commit only when visuals changed
+        shell: bash
+        run: |
+          if git diff --quiet -- assets/hero.svg assets/footer.svg assets/tools.svg assets/project-*.svg; then
+            echo "No visual changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/hero.svg assets/footer.svg assets/tools.svg assets/project-*.svg
+          git commit -m "chore(profile): rebuild vector visuals"
+          git push

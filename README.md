@@ -1,211 +1,101 @@
 <div align="center">
 
-# Hi, I'm Axira 👋
+<img src="./assets/banner.gif" width="100%" alt="Axira animated profile banner" />
 
-### Minecraft Mod Developer · Server Designer · Game Systems Builder
+<br/>
 
-Building immersive Minecraft experiences, RPG systems, server infrastructure
-and tools for **Maples;World**.
+### Building worlds, combat systems, and tools inside Minecraft.
+
+`Minecraft 1.21.1` · `NeoForge` · `Java 21` · `Game Systems` · `UI / UX` · `World Design`
 
 </div>
 
----
-
-## About Me
-
-I'm an independent developer focused on building Minecraft mods, multiplayer server systems, and RPG-style gameplay experiences.
-
-Most of my current work revolves around **Minecraft 1.21.1 NeoForge**, including custom UI frameworks, economy systems, progression systems, cross-mod compatibility, and server-side infrastructure.
-
-I enjoy turning gameplay ideas into working systems — from a small quality-of-life feature to a complete multiplayer framework.
-
----
-
-## Featured Projects
-
-### 🍁 Maples;World
-
-A long-term Minecraft multiplayer server project focused on exploration, creativity, automation, RPG progression, and community-driven gameplay.
-
-Current systems include:
-
-* Maple Coin economy
-* Achievements & titles
-* Large construction / megastructure system
-* Player marketplace
-* Shipping & trading systems
-* Cross-server progression
-* RPG progression
-* Custom server administration tools
-* Create ecosystem integration
-* Adventure server framework
-
-> The goal is not simply to create another Minecraft server,
-> but to build a persistent multiplayer world with its own systems and identity.
-
----
-
-### ⚔️ RPG Menu Framework
-
-A modular RPG interface framework for **Minecraft 1.21.1 NeoForge**.
-
-Designed to provide a unified RPG-style interface for:
-
-* Inventory
-* Equipment
-* Attributes
-* Skills
-* Magic
-* Quests
-* Accessories
-* Weapon slots
-* Character information
-
-Planned / supported integrations include:
-
-`Epic Fight` · `Curios / Accessories` · `Iron's Spells 'n Spellbooks` · `FTB Quests` · custom attribute systems
-
----
-
-### 🔧 MaplesCore
-
-The core infrastructure behind Maples;World.
-
-It provides shared systems such as:
-
-* Player account data
-* Economy
-* Titles & achievements
-* Marketplace
-* Server menus
-* Administrative tools
-* Player progression
-* Cross-server data
-* Project / construction management
-
-The project is designed around:
-
-**Server Authority · Compatibility · Persistence · Safe Migration · Modular Architecture**
-
----
-
-## Tech Stack
-
-### Minecraft
-
-![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-5E7C16?style=flat-square)
-![NeoForge](https://img.shields.io/badge/NeoForge-Modding-orange?style=flat-square)
-![Java](https://img.shields.io/badge/Java-21-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white)
-![KubeJS](https://img.shields.io/badge/KubeJS-Scripting-yellow?style=flat-square)
-
-### Development
-
-![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=flat-square\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square\&logo=github)
-![Gradle](https://img.shields.io/badge/Gradle-Build-02303A?style=flat-square\&logo=gradle)
-![JSON](https://img.shields.io/badge/JSON-Data-000000?style=flat-square\&logo=json)
-
-### Areas I Work On
-
-`Minecraft Modding`
-
-`Server Architecture`
-
-`Game Systems`
-
-`RPG UI / UX`
-
-`Economy Design`
-
-`Cross-Mod Compatibility`
-
-`Gameplay Balancing`
-
-`Automation`
-
-`Performance Optimization`
-
----
-
-## Currently Working On
-
-🌍 **Maples;World Adventure Server**
-
-⚔️ Souls-like player progression system
-
-❤️ Attribute & health progression
-
-🔥 Bonfire-based leveling interface
-
-🎒 RPG inventory & equipment framework
-
-💰 Long-term multiplayer economy
-
-🏗️ Megastructure construction system
-
-🌐 Cross-server player data synchronization
-
-🚂 Create ecosystem compatibility
-
----
-
-## Development Philosophy
-
-I prefer systems that are:
-
-**Modular**
-
-Features should not unnecessarily depend on other mods.
-
-**Server-authoritative**
-
-Important gameplay data should always be validated by the server.
-
-**Persistent**
-
-Player progress should survive upgrades and migrations safely.
-
-**Compatible**
-
-Systems should integrate with other mods without making them hard dependencies.
-
-**Maintainable**
-
-A feature isn't finished just because it works once.
-
----
-
-## GitHub
+<img src="./assets/divider.svg" width="100%" alt="divider" />
+
+## About
+
+I'm **Axira**, an independent developer focused on Minecraft modding, multiplayer systems, RPG mechanics, and world design.
+
+My work is centered on building complete gameplay experiences rather than isolated features: combat, progression, multiplayer rules, interfaces, persistence, compatibility, and the worlds that connect them.
+
+## Featured work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>⚔️ MaplesAdventure</h3>
+<p>A Souls-like action RPG project for <strong>Minecraft 1.21.1 NeoForge</strong>.</p>
+<p>Combat feel, lock-on and movement, multiplayer phasing, encounters, bosses, fog gates, progression, and exploration are designed as parts of one coherent adventure framework.</p>
+<p><strong>Focus:</strong> combat systems · multiplayer · bosses · progression</p>
+</td>
+<td width="50%" valign="top">
+<h3>🍁 Maples;World</h3>
+<p>A long-term multiplayer Minecraft world and server ecosystem.</p>
+<p>Custom economy, achievements, titles, construction systems, server tooling, cross-system progression, Create integration, and adventure content are developed around a persistent shared world.</p>
+<p><strong>Focus:</strong> server systems · world design · economy · community gameplay</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>🧭 RPG Menu Framework</h3>
+<p>An immersive RPG-style interface framework designed to bring inventory, equipment, attributes, skills, magic, quests, and mod integrations into a unified player experience.</p>
+<p><strong>Focus:</strong> UI / UX · equipment · attributes · compatibility</p>
+</td>
+<td width="50%" valign="top">
+<h3>🔧 MaplesCore</h3>
+<p>The technical foundation behind server-side and shared gameplay systems: economy, player progression, achievements, administration, project management, persistence, and cross-server features.</p>
+<p><strong>Focus:</strong> architecture · persistence · server authority · tooling</p>
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_NAME\&show_icons=true\&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_NAME\&layout=compact\&hide_border=true)
+[**Explore my public repositories →**](https://github.com/Axira-A?tab=repositories)
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" alt="divider" />
 
-## Projects & Interests
+## Currently forging
 
-Besides Minecraft development, I'm interested in:
+<img src="./assets/activity.svg" width="100%" alt="Latest public GitHub work, generated automatically" />
 
-* Game system design
-* UI / UX design
-* Multiplayer architecture
-* Game economy design
-* Automation systems
-* Procedural / sandbox gameplay
-* Unity & C#
-* Tools for content creators
+This panel is generated inside this repository by **GitHub Actions**. It does not depend on an external profile-stat service.
 
----
+## Equipped tools
 
 <div align="center">
 
-### Building worlds, systems, and experiences — one feature at a time.
+`Java 21` · `NeoForge` · `Gradle` · `Git` · `KubeJS`  
+`Blockbench` · `Blender` · `Unity / C#` · `Minecraft Data & Resource Packs`
 
-`Maples;World`
+</div>
+
+## What I care about
+
+- **Game feel first** — systems should be satisfying to use, not merely technically complete.
+- **Server authority** — important multiplayer state should remain trustworthy and deterministic.
+- **Compatibility** — integrations should cooperate with the rest of a modpack instead of taking it over.
+- **Persistence** — upgrades and migrations should not casually destroy player progress.
+- **Cohesion** — UI, mechanics, world design, animation, and progression should feel like parts of the same game.
+
+<details>
+<summary><b>Development interests</b></summary>
+<br/>
+
+Minecraft modding · Souls-like combat · action RPG systems · multiplayer architecture · UI / UX · game economy · animation · voxel modeling · world and level design · developer tooling
+
+</details>
+
+<img src="./assets/divider.svg" width="100%" alt="divider" />
+
+<div align="center">
+
+<img src="./assets/bonfire.gif" width="70%" alt="Animated bonfire" />
+
+### Rest at the bonfire.
+
+<sub>Thanks for visiting · Axira-A</sub>
 
 </div>

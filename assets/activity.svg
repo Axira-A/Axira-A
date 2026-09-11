@@ -1,0 +1,9 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg">
+<rect width="1000" height="280" rx="18" fill="#0d1117"/><rect x="1" y="1" width="998" height="278" rx="17" fill="none" stroke="#3b352d"/>
+<text x="48" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#d8d2c5">CURRENTLY FORGING</text>
+<text x="48" y="95" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#958a78">Dynamic activity will appear here after the first GitHub Actions run.</text>
+<text x="48" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#b89d72">MaplesAdventure</text>
+<text x="48" y="181" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#b89d72">Maples;World</text>
+<text x="48" y="212" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#b89d72">RPG systems &amp; tools</text>
+<text x="48" y="249" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#655d51">github.com/Axira-A</text>
+</svg>

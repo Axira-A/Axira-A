@@ -1,0 +1,61 @@
+name: Profile refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    paths:
+      - "profile-config.json"
+      - "profile-status.json"
+      - "scripts/build_visuals.py"
+      - "scripts/update_profile.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-refresh-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build static vector UI
+        run: python scripts/build_visuals.py
+
+      - name: Refresh live GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_profile.py
+
+      - name: Validate generated profile
+        run: |
+          python scripts/check_profile.py
+          python -m py_compile scripts/build_visuals.py scripts/update_profile.py scripts/check_profile.py
+
+      - name: Commit generated changes only when needed
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md assets data/live-cache.json; then
+            echo "Profile is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets data/live-cache.json
+          git commit -m "chore(profile): refresh live dashboard"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"

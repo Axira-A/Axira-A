@@ -5,14 +5,18 @@ on:
   push:
     paths:
       - "README.md"
+      - "profile-config.json"
       - "profile-status.json"
+      - "data/**"
       - "assets/**"
       - "scripts/**"
       - ".github/workflows/**"
   pull_request:
     paths:
       - "README.md"
+      - "profile-config.json"
       - "profile-status.json"
+      - "data/**"
       - "assets/**"
       - "scripts/**"
       - ".github/workflows/**"
@@ -23,13 +27,26 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 4
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Check profile assets and configuration
+
+      - name: Rebuild deterministic vector assets
+        run: python scripts/build_visuals.py
+
+      - name: Build live cards for validation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_profile.py
+
+      - name: Validate profile structure
         run: python scripts/check_profile.py
-      - name: Compile profile scripts
-        run: python -m py_compile scripts/update_profile.py scripts/build_visuals.py scripts/check_profile.py
+
+      - name: Compile generator scripts
+        run: python -m py_compile scripts/build_visuals.py scripts/update_profile.py scripts/check_profile.py

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-label="CURRENTLY FORGING">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b10"/><stop offset="1" stop-color="#0d141c"/></linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c9a467" stop-opacity="0"/><stop offset=".5" stop-color="#c9a467" stop-opacity=".65"/><stop offset="1" stop-color="#c9a467" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1200" height="290" rx="16" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="288" rx="15" fill="none" stroke="#39342d"/>
+<text x="38" y="40" fill="#efe6d4" font-family="Georgia, 'Times New Roman', serif" font-size="24" letter-spacing="2.8">CURRENTLY FORGING</text>
+<text x="38" y="62" fill="#82796d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.2" letter-spacing="1.4">MANUAL ROADMAP SIGNAL · NO FAKE PERCENTAGES · EDIT ONE JSON FILE TO UPDATE</text>
+<text x="1162" y="43" text-anchor="end" fill="#776e62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9">STATUS UPDATED  2026-09-11</text>
+<path d="M38 79 H1162" stroke="#27313a"/><path d="M38 79 H206" stroke="#d78a48" opacity=".72"/>
+<rect x="38" y="78" width="92" height="2" fill="url(#scan)" opacity="0"><animate attributeName="x" values="38;1070" dur="6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.8;0" dur="6.5s" repeatCount="indefinite"/></rect>
+<g>
+<rect x="38" y="98" width="550" height="78" rx="11" fill="#0b1118" stroke="#2f3943"/>
+<rect x="38" y="98" width="4" height="78" rx="2" fill="#d78a48" opacity=".86"/>
+<circle cx="60" cy="120" r="3.8" fill="#d78a48"><animate attributeName="opacity" values=".35;1;.35" dur="2.7s" repeatCount="indefinite"/></circle>
+<text x="73" y="125" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">MaplesAdventure</text>
+<text x="570" y="124" text-anchor="end" fill="#d78a48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8" letter-spacing=".7">ACTIVE BUILD</text>
+<text x="60" y="152" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">eight-direction dodge · weapon animation · bosses · world exploration</text>
+<text x="60" y="172" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">manual status · source: profile-status.json</text>
+</g><g>
+<rect x="612" y="98" width="550" height="78" rx="11" fill="#0b1118" stroke="#2f3943"/>
+<rect x="612" y="98" width="4" height="78" rx="2" fill="#907bc0" opacity=".86"/>
+<circle cx="634" cy="120" r="3.8" fill="#907bc0"><animate attributeName="opacity" values=".35;1;.35" dur="2.7s" repeatCount="indefinite"/></circle>
+<text x="647" y="125" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">RPG Menu Framework</text>
+<text x="1144" y="124" text-anchor="end" fill="#907bc0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8" letter-spacing=".7">ITERATING</text>
+<text x="634" y="152" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">equipment UX · mod integrations · keyboard and controller navigation</text>
+<text x="634" y="172" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">manual status · source: profile-status.json</text>
+</g><g>
+<rect x="38" y="192" width="550" height="78" rx="11" fill="#0b1118" stroke="#2f3943"/>
+<rect x="38" y="192" width="4" height="78" rx="2" fill="#79a384" opacity=".86"/>
+<circle cx="60" cy="214" r="3.8" fill="#79a384"><animate attributeName="opacity" values=".35;1;.35" dur="2.7s" repeatCount="indefinite"/></circle>
+<text x="73" y="219" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">Maples;World</text>
+<text x="570" y="218" text-anchor="end" fill="#79a384" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8" letter-spacing=".7">LIVE WORLD</text>
+<text x="60" y="246" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">server systems · progression · economy · adventure infrastructure</text>
+<text x="60" y="266" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">manual status · source: profile-status.json</text>
+</g><g>
+<rect x="612" y="192" width="550" height="78" rx="11" fill="#0b1118" stroke="#2f3943"/>
+<rect x="612" y="192" width="4" height="78" rx="2" fill="#7197b4" opacity=".86"/>
+<circle cx="634" cy="214" r="3.8" fill="#7197b4"><animate attributeName="opacity" values=".35;1;.35" dur="2.7s" repeatCount="indefinite"/></circle>
+<text x="647" y="219" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">MaplesCore</text>
+<text x="1144" y="218" text-anchor="end" fill="#7197b4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8" letter-spacing=".7">CORE SYSTEMS</text>
+<text x="634" y="246" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">server authority · persistence · administration · cross-server data</text>
+<text x="634" y="266" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">manual status · source: profile-status.json</text>
+</g>
+</svg>

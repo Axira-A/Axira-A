@@ -12,7 +12,8 @@
 <a href="#live-development-dashboard">Live dashboard</a> ·
 <a href="#currently-forging">Current focus</a> ·
 <a href="#public-repositories">Public repositories</a> ·
-<a href="#toolchain">Toolchain</a>
+<a href="#toolchain">Toolchain</a> ·
+<a href="https://space.bilibili.com/38903099">Bilibili ↗</a>
 
 <br/>
 
@@ -21,6 +22,7 @@
 <img src="https://img.shields.io/badge/Minecraft-1.21.1-11161d?style=flat-square&labelColor=0b1016" alt="Minecraft 1.21.1" />
 <img src="https://img.shields.io/badge/NeoForge-Modding-11161d?style=flat-square&labelColor=0b1016" alt="NeoForge" />
 <img src="https://img.shields.io/badge/Java-21-11161d?style=flat-square&logo=openjdk&logoColor=e7d7b4&labelColor=0b1016" alt="Java 21" />
+<a href="https://space.bilibili.com/38903099"><img src="https://img.shields.io/badge/Bilibili-Axira-11161d?style=flat-square&logo=bilibili&logoColor=00AEEC&labelColor=0b1016" alt="Bilibili profile" /></a>
 
 </div>
 
@@ -173,6 +175,6 @@ The profile itself is treated like a small software project. The refresh workflo
 
 <img src="./assets/footer.svg?v=4" width="100%" alt="Rest at the bonfire" />
 
-<sub>Profile UI generated in-repository · live data refreshed by GitHub Actions · Axira-A</sub>
+<sub>Profile UI generated in-repository · live data refreshed by GitHub Actions · <a href="https://space.bilibili.com/38903099">Bilibili</a> · Axira-A</sub>
 
 </div>

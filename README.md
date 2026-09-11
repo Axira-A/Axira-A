@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner-v2-animated.webp" width="100%" alt="Axira — Minecraft systems, worlds and modding" />
+<img src="./assets/banner-v2.webp" width="100%" alt="Axira — Minecraft systems, worlds and modding" />
 
 <br/>
 
@@ -119,7 +119,7 @@ Minecraft modding · Souls-like combat · action RPG systems · multiplayer arch
 
 <div align="center">
 
-<img src="./assets/bonfire-v2-animated.webp" width="100%" alt="Rest at the bonfire" />
+<img src="./assets/bonfire-v2.webp" width="100%" alt="Rest at the bonfire" />
 
 <sub>Thanks for visiting · Axira-A</sub>
 

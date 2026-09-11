@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Gradle">
+<rect x="1" y="1" width="62" height="62" rx="14" fill="#0b1118" stroke="#2c3640"/>
+<rect x="6" y="6" width="52" height="52" rx="10" fill="#0e151d" stroke="#c9a467" stroke-opacity=".32"/>
+<path d="M14 35 C15 22 24 17 34 18 C43 18 50 23 50 31 C50 39 43 45 34 45 H19 C15 43 13 40 14 35Z" fill="none" stroke="#c9a467" stroke-width="2.3"/><circle cx="38" cy="27" r="2" fill="#efe6d4"/><path d="M18 38 C24 34 31 35 35 39" stroke="#7a8e9e" stroke-width="2" fill="none"/>
+</svg>

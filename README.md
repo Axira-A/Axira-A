@@ -116,7 +116,7 @@ The table below is maintained by the same GitHub Actions workflow that refreshes
 | **[RPG-Menu-Framework](https://github.com/Axira-A/RPG-Menu-Framework)**<br><sub>A minecraft mod for modpack developers</sub> | `Java` · ★ 0 | development | `dev` | 2026-09-04 |
 | **[Skydome-GM-Manager](https://github.com/Axira-A/Skydome-GM-Manager)**<br><sub>自用游戏系统</sub> | `TypeScript` · ★ 1 | development | `main` | 2025-12-17 |
 | **[Vitalink-Wiki](https://github.com/Axira-A/Vitalink-Wiki)**<br><sub>由Rutsunine主创的OC知识库网站</sub> | `TypeScript` · ★ 0 | development | `main` | 2025-12-15 |
-| **[originspore](https://github.com/Axira-A/originspore)**<br><sub>NeoForge 1.21.1 project</sub> | `Java` · ★ 0 | development | `main` | 2026-07-01 |
+| **[originspore](https://github.com/Axira-A/originspore)**<br><sub>Public repository</sub> | `Java` · ★ 0 | development | `main` | 2026-07-01 |
 <!-- AUTO:REPOSITORIES:END -->
 
 <div align="center">

@@ -1,6 +1,3 @@
-<svg width="1000" height="34" viewBox="0 0 1000 34" xmlns="http://www.w3.org/2000/svg">
-<rect width="1000" height="34" fill="#0d1117"/>
-<path d="M40 17H455 M545 17H960" stroke="#5e5547" stroke-width="1"/>
-<path d="M500 6L511 17L500 28L489 17Z" fill="none" stroke="#a38d68" stroke-width="1.5"/>
-<circle cx="500" cy="17" r="2.5" fill="#d0a35c"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="34" viewBox="0 0 1200 34" role="img" aria-label="section divider">
+<path d="M38 17 H548 M652 17 H1162" stroke="#4b4032"/><path d="M468 17 H548 M652 17 H732" stroke="#806742" opacity=".8"/><path d="M600 8 l9 9 -9 9 -9 -9z" fill="none" stroke="#c9a467"/><circle cx="600" cy="17" r="2.5" fill="#c9a467"/>
 </svg>

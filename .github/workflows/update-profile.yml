@@ -15,6 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,12 +25,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate profile activity
+      - name: Generate latest-public-work card
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_profile.py
 
-      - name: Commit changes when needed
+      - name: Commit only when the card changed
         shell: bash
         run: |
           if git diff --quiet -- assets/activity.svg; then
@@ -39,5 +40,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/activity.svg
-          git commit -m "chore(profile): refresh activity card"
+          git commit -m "chore(profile): refresh public activity"
           git push

@@ -1,0 +1,62 @@
+{
+  "username": "Axira-A",
+  "display_name": "Axira",
+  "headline": "Minecraft systems · combat · interfaces · multiplayer infrastructure",
+  "platform": "Minecraft 1.21.1 / NeoForge",
+  "featured_repositories": [
+    "RPG-Menu-Framework",
+    "Skydome-GM-Manager",
+    "Vitalink-Wiki",
+    "originspore"
+  ],
+  "projects": [
+    {
+      "id": "maplesadventure",
+      "title": "MaplesAdventure",
+      "status": "ACTIVE BUILD",
+      "icon": "assets/icons/project-adventure.svg",
+      "href": "#maplesadventure",
+      "summary": "A Souls-like Minecraft adventure project built around deliberate combat, boss encounters, multiplayer phasing, progression and connected level design.",
+      "tags": ["NeoForge 1.21.1", "Combat", "World Design"]
+    },
+    {
+      "id": "maplesworld",
+      "title": "Maples;World",
+      "status": "LIVE WORLD",
+      "icon": "assets/icons/project-world.svg",
+      "href": "#maplesworld",
+      "summary": "A long-term multiplayer server ecosystem combining adventure content, Create-oriented play, economy, progression, construction and shared player systems.",
+      "tags": ["Server Systems", "Economy", "Multiplayer"]
+    },
+    {
+      "id": "rpg-menu-framework",
+      "title": "RPG Menu Framework",
+      "status": "PUBLIC",
+      "icon": "assets/icons/project-menu.svg",
+      "href": "https://github.com/Axira-A/RPG-Menu-Framework",
+      "summary": "An immersive RPG interface framework for modpack developers, unifying inventory, equipment, attributes, skills, magic and compatibility layers.",
+      "tags": ["Java", "UI / UX", "MIT"]
+    },
+    {
+      "id": "maplescore",
+      "title": "MaplesCore",
+      "status": "CORE SYSTEMS",
+      "icon": "assets/icons/project-core.svg",
+      "href": "#maplescore",
+      "summary": "The shared server-side systems layer behind economy, titles, achievements, administration, persistence, construction workflows and cross-server data.",
+      "tags": ["Server Authority", "Persistence", "Infrastructure"]
+    }
+  ],
+  "tools": [
+    ["Java 21", "assets/icons/java.svg"],
+    ["NeoForge", "assets/icons/neoforge.svg"],
+    ["KubeJS", "assets/icons/kubejs.svg"],
+    ["Gradle", "assets/icons/gradle.svg"],
+    ["Git", "assets/icons/git.svg"],
+    ["GitHub Actions", "assets/icons/actions.svg"],
+    ["Blender", "assets/icons/blender.svg"],
+    ["Blockbench", "assets/icons/blockbench.svg"],
+    ["Unity / C#", "assets/icons/unity.svg"],
+    ["Python", "assets/icons/python.svg"]
+  ]
+}

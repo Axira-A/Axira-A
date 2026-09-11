@@ -14,7 +14,7 @@
 <rect x="44" y="106" width="544" height="82" rx="12" fill="#0b1118" stroke="#303840"/>
 <circle cx="68" cy="130" r="4" fill="#6f9a86"/>
 <text x="82" y="135" fill="#eee5d3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">RPG-Menu-Framework</text>
-<text x="564" y="134" text-anchor="end" fill="#6f7880" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">★ 1  ·  Java</text>
+<text x="564" y="134" text-anchor="end" fill="#6f7880" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">★ 0  ·  Java</text>
 <text x="68" y="161" fill="#9a9389" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2">A minecraft mod for modpack developers</text>
 <text x="564" y="175" text-anchor="end" fill="#5e6871" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5">PUSHED 2026-09-04</text>
 </g><g>
@@ -22,13 +22,13 @@
 <circle cx="636" cy="130" r="4" fill="#8d77c7"/>
 <text x="650" y="135" fill="#eee5d3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">originspore</text>
 <text x="1132" y="134" text-anchor="end" fill="#6f7880" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">★ 0  ·  Java</text>
-<text x="636" y="161" fill="#9a9389" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2">Active project</text>
+<text x="636" y="161" fill="#9a9389" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2">Active public repository</text>
 <text x="1132" y="175" text-anchor="end" fill="#5e6871" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5">PUSHED 2026-07-01</text>
 </g><g>
 <rect x="44" y="204" width="544" height="82" rx="12" fill="#0b1118" stroke="#303840"/>
 <circle cx="68" cy="228" r="4" fill="#b9874f"/>
 <text x="82" y="233" fill="#eee5d3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">Skydome-GM-Manager</text>
-<text x="564" y="232" text-anchor="end" fill="#6f7880" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">★ 0  ·  TypeScript</text>
+<text x="564" y="232" text-anchor="end" fill="#6f7880" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">★ 1  ·  TypeScript</text>
 <text x="68" y="259" fill="#9a9389" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2">自用游戏系统</text>
 <text x="564" y="273" text-anchor="end" fill="#5e6871" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5">PUSHED 2025-12-17</text>
 </g><g>

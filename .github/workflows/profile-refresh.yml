@@ -53,8 +53,8 @@ jobs:
             echo "Profile is already current."
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Axira"
+          git config user.email "234123501+Axira-A@users.noreply.github.com"
           git add README.md assets data/live-cache.json
           git commit -m "chore(profile): refresh live dashboard"
           git pull --rebase origin "$GITHUB_REF_NAME"

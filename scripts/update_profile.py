@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
-"""Generate a self-hosted activity card for the Axira-A profile README.
-Uses only Python's standard library and the GitHub REST API.
-On API failure, the existing SVG is preserved.
+"""Generate the self-hosted activity card used by Axira-A's profile README.
+
+Design goals:
+- standard-library only;
+- GitHub REST API only;
+- preserve the previous SVG if the API is unavailable;
+- ignore forks, empty repositories and the profile repository itself;
+- stable output so scheduled runs do not create meaningless commits.
 """
 from __future__ import annotations
 
@@ -9,13 +14,13 @@ import json
 import os
 import sys
 import urllib.request
-from datetime import datetime, timezone
+from collections import Counter
 from html import escape
 from pathlib import Path
 
 USERNAME = "Axira-A"
 OUT = Path(__file__).resolve().parents[1] / "assets" / "activity.svg"
-API = f"https://api.github.com/users/{USERNAME}/repos?per_page=100&sort=updated&type=owner"
+API = f"https://api.github.com/users/{USERNAME}/repos?per_page=100&sort=pushed&type=owner"
 
 
 def request_json(url: str):
@@ -39,44 +44,71 @@ def trunc(text: str, max_len: int) -> str:
 
 def main() -> int:
     try:
-        repos = request_json(API)
+        all_repos = request_json(API)
     except Exception as exc:
         print(f"GitHub API unavailable; preserving previous card: {exc}", file=sys.stderr)
         return 0
 
-    repos = [r for r in repos if not r.get("fork") and r.get("name") != USERNAME][:4]
-    rows = []
-    y = 116
+    public = [
+        r
+        for r in all_repos
+        if not r.get("private")
+        and not r.get("fork")
+        and r.get("name") != USERNAME
+        and int(r.get("size") or 0) > 0
+        and not r.get("archived")
+    ]
+    public.sort(key=lambda r: r.get("pushed_at") or "", reverse=True)
+    repos = public[:4]
+
+    total_stars = sum(int(r.get("stargazers_count") or 0) for r in public)
+    languages = Counter(r.get("language") for r in public if r.get("language"))
+    primary_language = languages.most_common(1)[0][0] if languages else "—"
+    last_push = (repos[0].get("pushed_at") or "")[:10] if repos else "—"
+
+    rows: list[str] = []
+    y = 159
     if not repos:
-        rows.append(f'<text x="48" y="{y}" class="muted">No public project repositories yet.</text>')
+        rows.append(f'<text x="56" y="{y}" class="muted">No public project activity yet.</text>')
     else:
         for repo in repos:
-            name = escape(trunc(repo.get("name", "Unnamed"), 34))
-            desc = escape(trunc(repo.get("description") or "Active project", 70))
+            name = escape(trunc(repo.get("name", "Unnamed"), 32))
+            desc = escape(trunc(repo.get("description") or "Active project", 62))
             lang = escape(repo.get("language") or "—")
-            stars = int(repo.get("stargazers_count") or 0)
-            updated = (repo.get("updated_at") or "")[:10]
-            rows.append(f'<text x="48" y="{y}" class="repo">{name}</text>')
-            rows.append(f'<text x="330" y="{y}" class="desc">{desc}</text>')
-            rows.append(f'<text x="952" y="{y}" class="meta">{lang} · ★ {stars} · {updated}</text>')
-            y += 42
+            pushed = (repo.get("pushed_at") or "")[:10]
+            rows.append(f'<circle cx="61" cy="{y-5}" r="3" fill="#c59b59"/>')
+            rows.append(f'<text x="78" y="{y}" class="repo">{name}</text>')
+            rows.append(f'<text x="340" y="{y}" class="desc">{desc}</text>')
+            rows.append(f'<text x="944" y="{y}" class="meta">{lang}  ·  {escape(pushed)}</text>')
+            y += 40
 
     rows_svg = "".join(rows)
-    svg = f'''<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
-<rect width="1000" height="300" rx="18" fill="#0d1117"/>
-<rect x="1" y="1" width="998" height="298" rx="17" fill="none" stroke="#3b352d"/>
+    svg = f'''<svg width="1000" height="340" viewBox="0 0 1000 340" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b1016"/>
+    <stop offset="1" stop-color="#111820"/>
+  </linearGradient>
+</defs>
+<rect width="1000" height="340" rx="18" fill="url(#bg)"/>
+<rect x="1" y="1" width="998" height="338" rx="17" fill="none" stroke="#4d402e"/>
+<path d="M56 95 H944" stroke="#6f5836" stroke-width="1"/>
+<path d="M487 95 L500 82 L513 95 L500 108 Z" fill="#c59b59" opacity=".9"/>
 <style>
-.title {{ font: 700 22px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#d8d2c5; }}
-.kicker {{ font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#776e61; letter-spacing:1px; }}
-.repo {{ font: 700 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#c4a46f; }}
-.desc {{ font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#aaa295; }}
-.meta {{ font: 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#6f685e; text-anchor:end; }}
+.title {{ font: 700 22px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#e3dccd; letter-spacing:2px; }}
+.kicker {{ font: 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#887a66; letter-spacing:1.5px; }}
+.metric {{ font: 700 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#c59b59; }}
+.repo {{ font: 700 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#dfd4c0; }}
+.desc {{ font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#a9a091; }}
+.meta {{ font: 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#7f7669; text-anchor:end; }}
 .muted {{ font: 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill:#8b8377; }}
 </style>
-<text x="48" y="54" class="title">LATEST PUBLIC WORK</text>
-<text x="48" y="82" class="kicker">SELF-HOSTED · GENERATED BY GITHUB ACTIONS</text>
+<text x="56" y="48" class="title">LATEST PUBLIC WORK</text>
+<text x="56" y="72" class="kicker">SELF-HOSTED  ·  GENERATED BY GITHUB ACTIONS</text>
+<text x="944" y="48" class="meta">last push  {escape(last_push)}</text>
+<text x="944" y="72" class="metric" text-anchor="end">{len(public)} REPOS  ·  {total_stars} STARS  ·  {escape(primary_language)}</text>
 {rows_svg}
-<text x="952" y="272" class="meta">activity through {escape((repos[0].get("updated_at") or "")[:10] if repos else "—")}</text>
+<text x="944" y="318" class="meta">github.com/{USERNAME}</text>
 </svg>'''
     OUT.write_text(svg, encoding="utf-8")
     print(f"Updated {OUT}")

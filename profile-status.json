@@ -4,16 +4,16 @@
     {
       "project": "MaplesAdventure",
       "status": "ACTIVE BUILD",
-      "detail": "combat feel · encounters · bosses · world design · animation"
+      "detail": "eight-direction dodge · weapon animation · bosses · world exploration"
     },
     {
       "project": "RPG Menu Framework",
       "status": "ITERATING",
-      "detail": "equipment UX · mod integrations · controller and keyboard navigation"
+      "detail": "equipment UX · mod integrations · keyboard and controller navigation"
     },
     {
       "project": "Maples;World",
-      "status": "ACTIVE WORLD",
+      "status": "LIVE WORLD",
       "detail": "server systems · progression · economy · adventure infrastructure"
     },
     {

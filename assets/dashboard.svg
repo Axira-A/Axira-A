@@ -7,40 +7,40 @@
 <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#39342d"/>
 <text x="38" y="40" fill="#efe6d4" font-family="Georgia, 'Times New Roman', serif" font-size="24" letter-spacing="2.8">LIVE DEVELOPMENT DASHBOARD</text>
 <text x="38" y="62" fill="#82796d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.2" letter-spacing="1.4">PUBLIC GITHUB DATA · SELF-HOSTED SVG · REFRESHED BY GITHUB ACTIONS</text>
-<text x="1162" y="43" text-anchor="end" fill="#776e62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9">LAST PUBLIC PUSH  2026-09-14</text>
+<text x="1162" y="43" text-anchor="end" fill="#776e62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9">LAST PUBLIC PUSH  2026-09-04</text>
 <path d="M38 79 H1162" stroke="#27313a"/><path d="M38 79 H206" stroke="#79a384" opacity=".72"/>
 <rect x="38" y="78" width="92" height="2" fill="url(#scan)" opacity="0"><animate attributeName="x" values="38;1070" dur="6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.8;0" dur="6.5s" repeatCount="indefinite"/></rect>
-<g><rect x="38" y="99" width="260" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/><text x="56" y="122" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" letter-spacing="1">PUBLIC CODE REPOS</text><text x="56" y="152" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700">5</text><rect x="56" y="160" width="60" height="2" fill="#79a384" opacity=".75"/></g><g><rect x="320" y="99" width="260" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/><text x="338" y="122" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" letter-spacing="1">ACTIVE · 90D</text><text x="338" y="152" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700">2</text><rect x="338" y="160" width="60" height="2" fill="#d78a48" opacity=".75"/></g><g><rect x="602" y="99" width="260" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/><text x="620" y="122" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" letter-spacing="1">TOTAL STARS</text><text x="620" y="152" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700">1</text><rect x="620" y="160" width="60" height="2" fill="#c9a467" opacity=".75"/></g><g><rect x="884" y="99" width="260" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/><text x="902" y="122" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" letter-spacing="1">TOP LANGUAGES</text><text x="902" y="152" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700">Java · TypeScript</text><rect x="902" y="160" width="60" height="2" fill="#7197b4" opacity=".75"/></g><g>
+<g><rect x="38" y="99" width="260" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/><text x="56" y="122" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" letter-spacing="1">PUBLIC CODE REPOS</text><text x="56" y="152" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700">4</text><rect x="56" y="160" width="60" height="2" fill="#79a384" opacity=".75"/></g><g><rect x="320" y="99" width="260" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/><text x="338" y="122" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" letter-spacing="1">ACTIVE · 90D</text><text x="338" y="152" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700">2</text><rect x="338" y="160" width="60" height="2" fill="#d78a48" opacity=".75"/></g><g><rect x="602" y="99" width="260" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/><text x="620" y="122" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" letter-spacing="1">TOTAL STARS</text><text x="620" y="152" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700">1</text><rect x="620" y="160" width="60" height="2" fill="#c9a467" opacity=".75"/></g><g><rect x="884" y="99" width="260" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/><text x="902" y="122" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" letter-spacing="1">TOP LANGUAGES</text><text x="902" y="152" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700">Java · TypeScript</text><rect x="902" y="160" width="60" height="2" fill="#7197b4" opacity=".75"/></g><g>
 <rect x="38" y="188" width="550" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/>
 <rect x="38" y="188" width="4" height="70" rx="2" fill="#79a384" opacity=".86"/>
 <circle cx="60" cy="210" r="3.8" fill="#79a384"></circle>
-<text x="73" y="215" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">MaplesAdventure</text>
+<text x="73" y="215" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">RPG-Menu-Framework</text>
 <text x="570" y="214" text-anchor="end" fill="#79a384" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8" letter-spacing=".7">Java · ★ 0</text>
-<text x="60" y="242" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">Public repository</text>
-<text x="60" y="262" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">pushed 2026-09-14 · branch main</text>
+<text x="60" y="242" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">A minecraft mod for modpack developers</text>
+<text x="60" y="262" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">pushed 2026-09-04 · branch dev</text>
 </g><g>
 <rect x="612" y="188" width="550" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/>
 <rect x="612" y="188" width="4" height="70" rx="2" fill="#907bc0" opacity=".86"/>
 <circle cx="634" cy="210" r="3.8" fill="#907bc0"></circle>
-<text x="647" y="215" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">RPG-Menu-Framework</text>
+<text x="647" y="215" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">originspore</text>
 <text x="1144" y="214" text-anchor="end" fill="#907bc0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8" letter-spacing=".7">Java · ★ 0</text>
-<text x="634" y="242" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">A minecraft mod for modpack developers</text>
-<text x="634" y="262" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">pushed 2026-09-04 · branch dev</text>
+<text x="634" y="242" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">Public repository</text>
+<text x="634" y="262" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">pushed 2026-07-01 · branch main</text>
 </g><g>
 <rect x="38" y="274" width="550" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/>
 <rect x="38" y="274" width="4" height="70" rx="2" fill="#d78a48" opacity=".86"/>
 <circle cx="60" cy="296" r="3.8" fill="#d78a48"></circle>
-<text x="73" y="301" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">originspore</text>
-<text x="570" y="300" text-anchor="end" fill="#d78a48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8" letter-spacing=".7">Java · ★ 0</text>
-<text x="60" y="328" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">Public repository</text>
-<text x="60" y="348" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">pushed 2026-07-01 · branch main</text>
+<text x="73" y="301" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">Skydome-GM-Manager</text>
+<text x="570" y="300" text-anchor="end" fill="#d78a48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8" letter-spacing=".7">TypeScript · ★ 1</text>
+<text x="60" y="328" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">自用游戏系统</text>
+<text x="60" y="348" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">pushed 2025-12-17 · branch main</text>
 </g><g>
 <rect x="612" y="274" width="550" height="70" rx="11" fill="#0b1118" stroke="#2f3943"/>
 <rect x="612" y="274" width="4" height="70" rx="2" fill="#7197b4" opacity=".86"/>
 <circle cx="634" cy="296" r="3.8" fill="#7197b4"></circle>
-<text x="647" y="301" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">Skydome-GM-Manager</text>
-<text x="1144" y="300" text-anchor="end" fill="#7197b4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8" letter-spacing=".7">TypeScript · ★ 1</text>
-<text x="634" y="328" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">自用游戏系统</text>
-<text x="634" y="348" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">pushed 2025-12-17 · branch main</text>
+<text x="647" y="301" fill="#efe6d4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.4" font-weight="700">Vitalink-Wiki</text>
+<text x="1144" y="300" text-anchor="end" fill="#7197b4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8" letter-spacing=".7">TypeScript · ★ 0</text>
+<text x="634" y="328" fill="#a69d8f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6">由Rutsunine主创的OC知识库网站</text>
+<text x="634" y="348" fill="#6d7881" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.8">pushed 2025-12-15 · branch main</text>
 </g>
 </svg>

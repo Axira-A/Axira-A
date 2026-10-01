@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30",
+  "generated_at": "2026-10-01",
   "repositories": [
     {
       "name": "RPG-Menu-Framework",
@@ -34,11 +34,11 @@
     {
       "name": "originspore",
       "description": "Public repository",
-      "language": "Java",
+      "language": "—",
       "stars": 0,
-      "branch": "main",
-      "pushed": "2026-07-01",
-      "license": "NOASSERTION",
+      "branch": "—",
+      "pushed": "—",
+      "license": "—",
       "release": "development"
     }
   ]
